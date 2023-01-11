@@ -3,6 +3,8 @@
 import time
 
 def canCompleteCircuit(gas: list[int], cost: list[int]) -> int:
+    # Another method - Not optimized
+    #
     # if sum(gas) >= sum(cost):
     #     difference = []
     #     for i in range(len(gas)):
